@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo de JavaScript</title>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+var cadena=prompt('Crea un nombre de 5 letras que empiece con a y acabe con a','');
+var patron=/^a...a$/;
+if (patron.test(cadena))
+document.write('Creo bien el nombre');
+else
+document.write('No cumplio con los requisitos');
+</script>
+
+</body>
+</html>
